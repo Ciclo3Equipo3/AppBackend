@@ -8,10 +8,10 @@ public class Productos {
 	
 	@Id
 	private Long codigo_producto;
-	private Long ivacompra;
+	private Double ivacompra;
 	private String nombre_producto;
-	private Long precio_compra;
-	private Long precio_venta;
+	private Double precio_compra;
+	private Double precio_venta;
 	private Long nitproveedor;
 	
 	
@@ -21,10 +21,10 @@ public class Productos {
 	public void setCodigo_producto(Long codigo_producto) {
 		this.codigo_producto = codigo_producto;
 	}
-	public Long getIvacompra() {
+	public Double getIvacompra() {
 		return ivacompra;
 	}
-	public void setIvacompra(Long ivacompra) {
+	public void setIvacompra(Double ivacompra) {
 		this.ivacompra = ivacompra;
 	}
 	public String getNombre_producto() {
@@ -33,16 +33,16 @@ public class Productos {
 	public void setNombre_producto(String nombre_producto) {
 		this.nombre_producto = nombre_producto;
 	}
-	public Long getPrecio_compra() {
+	public Double getPrecio_compra() {
 		return precio_compra;
 	}
-	public void setPrecio_compra(Long precio_compra) {
+	public void setPrecio_compra(Double precio_compra) {
 		this.precio_compra = precio_compra;
 	}
-	public Long getPrecio_venta() {
+	public Double getPrecio_venta() {
 		return precio_venta;
 	}
-	public void setPrecio_venta(Long precio_venta) {
+	public void setPrecio_venta(Double precio_venta) {
 		this.precio_venta = precio_venta;
 	}
 	public Long getNitproveedor() {
